@@ -7,9 +7,19 @@ draw = function() {
     fill(255, 254, 222);
     rect(20, 100, 364, 200);
 
-    fill(0, 0, 0);
-    textSize(20);
-    text("What kind of band never plays music?", 39, 200);
+    
+
+    if (mousePressed){
+        fill(255, 254, 222);
+        rect(20, 100, 364, 200);
+        fill(0, 0, 0);
+        textSize(20);
+        text("A rubber band", 140, 200);
+    } else {
+        fill(0, 0, 0);
+        textSize(20);
+        text("What kind of band never plays music?", 39, 200);
+    }
 };
 
 /*
